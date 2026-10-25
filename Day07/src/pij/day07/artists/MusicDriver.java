@@ -1,7 +1,7 @@
 package pij.day07.artists;
 
 /**
- * Driver class for Exercise .
+ * Driver class for Exercise 11.
  */
 public class MusicDriver {
     static void main() {
