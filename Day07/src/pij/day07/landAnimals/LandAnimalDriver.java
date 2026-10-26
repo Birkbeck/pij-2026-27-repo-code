@@ -1,7 +1,11 @@
 package pij.day07.landAnimals;
 
+/**
+ * LandAnimalDriver class will test LandAnimal, Cat and Dog classes.
+ */
 public class LandAnimalDriver {
-    public static void main(String[] args) {
+    
+    void main() {
         Dog dog = new Dog();
         dog.breathe(80);
         IO.println(dog.makeSound()); // Woof
@@ -19,3 +23,4 @@ public class LandAnimalDriver {
         IO.println(animal2.makeSound()); // Meeouw
     }
 }
+
