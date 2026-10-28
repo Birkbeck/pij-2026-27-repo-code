@@ -15,13 +15,16 @@ boolean messageCanBePrinted(String message, int hPos, int vPos) {
 }
 
 void printAtPosition(String message, int hPos, int vPos) {
+    final String ERROR_MESSAGE = "error";
+    final int ERROR_H_POS = 20;
+    final int ERROR_V_POS = 20;
     if (! messageCanBePrinted(message, hPos, vPos)) {
-        message = "error";
-        hPos = 20;
-        vPos = 20;
+        message = ERROR_MESSAGE;
+        hPos = ERROR_H_POS;
+        vPos = ERROR_V_POS;
     }
-    IO.print("\n".repeat(vPos));
-    IO.print(" ".repeat(hPos));
+    IO.print("\n".repeat(vPos)); // go down
+    IO.print(" ".repeat(hPos)); // indent for the line
     IO.println(message);
 }
 
