@@ -26,7 +26,7 @@ public class Integer2 {
     }
 
     public void prettyPrint() {
-        System.out.println(this.value);
+        IO.println(this.value);
     }
 
     public String toString() {
