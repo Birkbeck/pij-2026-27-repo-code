@@ -14,7 +14,7 @@ import java.util.TreeSet;
  */
 public class PointTester {
     static void main() {
-        IO.println("==== Exercise 5.1 ====");
+        IO.println("==== Exercise 4.1 ====");
 
         Point p1 = new Point(3, 4);
         Point p2 = new Point(3, 4);
@@ -23,19 +23,19 @@ public class PointTester {
         list.add(p1);
         IO.println("list.contains(p2): expected true; actual " + list.contains(p2));
 
-        IO.println("\n==== Exercise 5.2 ====");
+        IO.println("\n==== Exercise 4.2 ====");
 
         Set<Point> set1 = new LinkedHashSet<>();
         set1.add(p1);
         IO.println("set1.contains(p2): expected true; actual " + set1.contains(p2));
 
-        IO.println("\n==== Exercise 5.3 ====");
+        IO.println("\n==== Exercise 4.3 ====");
 
         Set<Point> set2 = new TreeSet<>();
         set2.add(p1);
         IO.println("set2.contains(p2): expected true; actual " + set2.contains(p2));
 
-        IO.println("\n==== Exercise 5.4 ====");
+        IO.println("\n==== Exercise 4.4 ====");
 
         // add some further entries to set2
         set2.add(new Point(7, 8));
