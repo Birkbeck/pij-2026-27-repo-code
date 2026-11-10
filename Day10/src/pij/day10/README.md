@@ -1,4 +1,4 @@
-# Programming in Java - Day 09 repo code
+# Programming in Java - Day 10 repo code
 
 The following directories relate to
 
