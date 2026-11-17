@@ -2,7 +2,7 @@
 
 The following directories relate to
 
-## Reading material and slides
+## Reading material
 
 + factorial
 + fibonacci
