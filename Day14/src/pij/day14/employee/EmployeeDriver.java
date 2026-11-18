@@ -12,13 +12,23 @@ public class EmployeeDriver {
         Employee barry = new Employee("Barry", celia); // Barry and Betsy both have
         Employee betsy = new Employee("Betsy", celia); // Celia as their line manager
 
-        IO.println("Betsy answers, recursively: " + betsy.getCEORecursively());
-        IO.println("Betsy answers, iteratively: " + betsy.getCEOIteratively());
+        Employee[] someEmployees = { betsy, barry, celia };
+        notesTest(someEmployees); // output from reading material
 
-        IO.println("Barry answers, recursively: " + barry.getCEORecursively());
-        IO.println("Barry answers, iteratively: " + barry.getCEOIteratively());
-
-        IO.println("Celia answers, recursively: " + celia.getCEORecursively());
-        IO.println("Celia answers, iteratively: " + celia.getCEOIteratively());
+        exercise3Test(betsy); // output from Exercise 3
     }
+
+    private static void exercise3Test(Employee e) {
+        // TODO
+    }
+
+    private static void notesTest(Employee[] employees) {
+        for (Employee employee : employees) {
+            IO.println(employee.getName() + " answers, recursively: "
+                    + employee.getCEORecursively());
+            IO.println(employee.getName() + " answers, iteratively: "
+                    + employee.getCEOIteratively());
+        }
+    }
+
 }
