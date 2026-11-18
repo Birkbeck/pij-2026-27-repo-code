@@ -16,6 +16,15 @@ public class EmployeeDriver {
         notesTest(someEmployees); // output from reading material
 
         exercise3Test(betsy); // output from Exercise 3
+        /* The method call should print:
+           Erica
+           |
+           Derek
+           |
+           Celia
+           |
+           Betsy
+         */
     }
 
     private static void exercise3Test(Employee e) {
