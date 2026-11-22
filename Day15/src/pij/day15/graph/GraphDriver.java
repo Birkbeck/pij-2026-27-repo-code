@@ -50,7 +50,7 @@ public class GraphDriver {
      */
     private static void driveGetDataFrom(Graph<Integer> g) {
         for (int i = 0; i < NUMBER_OF_NODES; i++) {
-            List<Integer> values = g.getDataFrom(i);
+            Set<Integer> values = g.getDataFrom(i);
             IO.println("Data reachable from node " + i + ": " + values);
         }
     }
