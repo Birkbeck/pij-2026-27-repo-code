@@ -7,3 +7,7 @@ The following directories relate to
 + fibonacci
 + expressionTry1
 + expressionTry2
+
+## Worksheet
+
++ Q3: graph
