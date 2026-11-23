@@ -1,6 +1,6 @@
 package pij.day15.graph;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  * Driver class for Day 15, Exercise 3.
