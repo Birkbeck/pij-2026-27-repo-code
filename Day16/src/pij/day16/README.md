@@ -15,3 +15,7 @@ The following directories relate to
 + Q3 examResult
 + Q4 examResult
 + Q5 examResult
+
+## Further examples
+
++ Using functional interfaces in recursive data structures: expressionExtended
